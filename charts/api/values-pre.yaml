@@ -10,7 +10,7 @@ ingress:
       secretName: api-losva-proyectosrandom-es-tls
 #replicaCount: 2
 hpa:
-  minReplicas: 2
+  minReplicas: 3
   maxReplicas: 6
 image:
   repository: jvelascoiti/backend-fast-api
