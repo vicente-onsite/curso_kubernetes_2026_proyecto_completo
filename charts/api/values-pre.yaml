@@ -2,12 +2,12 @@ service:
   type: ClusterIP
   port: 80
 ingress:
-  host: api-curso.proyectosrandom.es
+  host: losva.proyectosrandom.es
   clusterIssuer: letsencrypt-prod
   tls:
     - hosts:
-      - api-curso.proyectosrandom.es
-      secretName: api-curso-proyectosrandom-es-tls
+      - losva.proyectosrandom.es
+      secretName: api-losva-proyectosrandom-es-tls
 #replicaCount: 2
 hpa:
   minReplicas: 2
